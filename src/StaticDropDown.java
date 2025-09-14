@@ -16,6 +16,7 @@ public class StaticDropDown {
 		WebElement staticDropdown= driver.findElement(By.xpath("//select[@id='ctl00_mainContent_DropDownListCurrency']"));
 		Select dropdpwn= new Select(staticDropdown);
 		dropdpwn.selectByIndex(3);
+		System.out.println("static drop down");
 		
 		System.out.println(dropdpwn.getFirstSelectedOption().getText());
 		dropdpwn.selectByVisibleText("AED");

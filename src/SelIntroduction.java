@@ -14,6 +14,8 @@ public class SelIntroduction {
         driver.get("http://www.rahulshettyacademy.com/");
         System.out.println(driver.getTitle());
         System.out.println(driver.getCurrentUrl());
+        System.out.println("git x 1");
+        System.out.println("git x 2");
         driver.close();
 	}
 
