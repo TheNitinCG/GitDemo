@@ -28,6 +28,10 @@ public class SelIntroduction {
         
         System.out.println("Develop branch1");
         System.out.println("Develop branch2");
+        
+
+        System.out.println("Develop branch1 gitx changes");
+        System.out.println("Develop branch2 gitx changes");
         driver.close();
 	}
 
