@@ -24,6 +24,10 @@ public class SelIntroduction {
         
         System.out.println("git x 1");
         System.out.println("git x 2");
+        
+        
+        System.out.println("Develop branch1");
+        System.out.println("Develop branch2");
         driver.close();
 	}
 
